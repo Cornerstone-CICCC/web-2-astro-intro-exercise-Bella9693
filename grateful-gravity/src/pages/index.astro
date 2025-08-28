@@ -1,0 +1,11 @@
+---
+import Heading from "../components/Heading.astro"
+import Layout from "../layouts/Layout.astro"
+
+const pageTitle = "Welcome to the Home Page"
+const pageText = "This is the main content of the homepage."
+---
+
+<Layout title={pageTitle}>
+	<Heading text={pageTitle} content={pageText}/>
+</Layout>
